@@ -3,4 +3,4 @@ USER root
 RUN mkdir -p /home/node/.n8n && chown -R node:node /home/node/.n8n
 USER node
 ENV N8N_PORT=10000
-CMD ["n8n", "start"]
+CMD n8n start
